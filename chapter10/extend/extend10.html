@@ -11,6 +11,18 @@
 
 <body>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#hide").click(function(){
+      $("footer").hide();
+    });
+    $("#show").click(function(){
+      $("footer").show();
+    });
+  });
+  </script>
+
 	<div id="wrapper">
 
         <h1>Learning How to Use jQuery</h1>
@@ -22,24 +34,20 @@
                 <p>I know how to add functionality to webpages with JavaScript.</p>
                 <p>I understand how to use the jQuery library.</p>
 
-                <button>Hide</button>
-                <button>Show</button>
+                <button id="hide">Hide</button>
+                <button id="show">Show</button>
 
 		</article>
 
         <footer>
             <p>Student's Name: Kenneth Luck </p>
-            <p>The latest version of jQuery is: </p>
-            <p>Resource used to complete this assignment: </p>
+            <p>The latest version of jQuery is: Version 3.6.0</p>
+            <p>Resource used to complete this assignment: Jquery</p>
         </footer>
 
 	</div>
 
-<script
-  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-  crossorigin="anonymous">
-</script>
+
 
 </body>
 </html>

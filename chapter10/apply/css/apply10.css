@@ -54,12 +54,12 @@ button {
     height: 200px;
     background-color: #33091b;
     margin-left: 6%;
-    animation-name: @keyframes;
+    animation-name: keyframes;
     animation-duration: 5s;
 }
 
 .square:hover{
-  translate:80px;
+  transform: translate(80px);
 }
 
 /* Animation */
@@ -73,10 +73,7 @@ button {
   to { background-color: #660b32; }
 }
 
-div {
-  animation-name: @-webkit-keyframes color;
-  animation-duration: 5s;
-}
+
 
 /* Style rules for the footer */
 footer {
